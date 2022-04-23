@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="searchzond.fayz.zond.Activity.InputActivity">
+
+    <ImageView
+        android:id="@+id/fon_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/fon_img"
+        android:scaleType="centerCrop"
+        android:src="@drawable/test_fon3" />
+
+    <LinearLayout
+        android:id="@+id/Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Layout"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/test_text"
+            android:textColorHint="@color/texttest"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/passField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/test_text"
+            android:textColorHint="@color/texttest"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/passConfirmField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_confirmation"
+            android:inputType="textPassword"
+            android:textColor="@color/test_text"
+            android:textColorHint="@color/texttest"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/nameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_Name"
+            android:inputType="text"
+            android:textColor="@color/test_text"
+            android:textColorHint="@color/texttest"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/phoneField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:textColor="@color/test_text"
+            android:textColorHint="@color/texttest"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_test"
+                android:text="@string/btnRegister"
+                android:textColor="@color/test_text"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

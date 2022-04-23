@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    tools:context="searchzond.fayz.zond.Activity.MainActivity">
+
+    <include
+        layout="@layout/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mainLayoutdown"
+        android:layout_marginBottom="0dp" />
+
+    <LinearLayout
+        android:id="@+id/mainLayoutdown"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rectangle_up">
+
+        <ImageView
+            android:id="@+id/homeBtn"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/homebtn"
+            android:focusable="true"
+            android:padding="10dp"
+            android:src="@drawable/main_home" />
+
+        <ImageView
+            android:id="@+id/searchBtn"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/search"
+            android:focusable="true"
+            android:padding="10dp"
+            android:src="@drawable/main_search" />
+
+        <ImageView
+            android:id="@+id/addBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/add"
+            android:focusable="true"
+            android:padding="2dp"
+            android:src="@drawable/main_add" />
+
+        <ImageView
+            android:id="@+id/messageBtn"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/message"
+            android:focusable="true"
+            android:padding="5dp"
+            android:src="@drawable/main_message" />
+
+
+        <ImageView
+            android:id="@+id/profileBtn"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/profile"
+            android:focusable="true"
+            android:padding="10dp"
+            android:src="@drawable/main_profile" />
+    </LinearLayout>
+</RelativeLayout>

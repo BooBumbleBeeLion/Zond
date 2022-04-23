@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Layoutup"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/rectangle_up"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/button_back"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/searchwallet_back_button" />
+
+        <ImageView
+            android:id="@+id/button_close"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/searchwallet_close_button" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Layoutup"
+        android:background="@color/test_fon">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:id="@+id/linearelectron"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="1dp">
+
+                    <ImageView
+                        android:id="@+id/add_img"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/add_text"
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/test" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/linearup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/test_linear" />
+
+            <ImageView
+                android:id="@+id/add_foto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_add_photo"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/add_foto2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="25dp"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/message_name_thing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rectangle_up2"
+                android:hint="@string/name_thing"
+                android:textColorHint="@color/test_text"
+                android:inputType="textCapWords"
+                android:textColor="#ff2400"
+                />
+
+            <EditText
+                android:id="@+id/message_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_up2"
+                android:hint="@string/Estimated_loss_site"
+                android:textColorHint="@color/test_text"
+                android:inputType="textCapWords"
+                android:textColor="#ff2400"
+                  />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/spinnerDays"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="top"/>
+                <Spinner
+                    android:id="@+id/spinnerMonths"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="top" />
+                <Spinner
+                    android:id="@+id/spinnerYears"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="top"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/message_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_up2"
+                android:hint="@string/Color"
+                android:textColorHint="@color/test_text"
+                android:inputType="textCapWords"
+                android:textColor="#ff2400"
+                 />
+
+            <EditText
+                android:id="@+id/message_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_up2"
+                android:hint="@string/model"
+                android:inputType="textCapWords"
+                android:textColor="#ff2400"
+                android:textColorHint="@color/test_text" />
+
+            <EditText
+                android:id="@+id/message_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/rectangle_up2"
+                android:hint="@string/content"
+                android:textColorHint="@color/test_text"
+                android:inputType="textCapWords"
+                android:textColor="#ff2400"
+                 />
+
+            <ImageView
+                android:id="@+id/lineardown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/test_linear" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/buttonAdd"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/test_button_color"
+                    android:text="@string/add"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textColor="#f7f9f8"
+                    android:textSize="20sp"
+                     />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

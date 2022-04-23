@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SearchLevels" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/test_text</item>
+        <item name="android:typeface">monospace</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="GoSearch" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gosearch</item>
+        <item name="android:typeface">monospace</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="SearchСategories" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:typeface">monospace</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AddCategoryLevel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:typeface">monospace</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="GoAdd" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gosearch</item>
+        <item name="android:typeface">monospace</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">#00000000</item>
+    </style>
+
+    <style name="Profile" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/textProfile</item>
+        <item name="android:typeface">monospace</item>
+        <item name="fontFamily">@font/roboto_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">#00000000</item>
+
+
+    </style>
+
+</resources>

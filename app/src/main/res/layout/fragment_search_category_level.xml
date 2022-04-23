@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_up"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_up"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_search"
+            style="@style/AddCategoryLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/search"
+            tools:ignore="DuplicateIds" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_up"
+        android:background="@color/test_fon">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/all_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:paddingTop="50dp">
+
+                <LinearLayout
+                    android:id="@+id/wallet_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/walletBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/search_wallet" />
+
+                    <TextView
+                        android:id="@+id/textwallet"
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/wallet" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/keys_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/keysBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/search_keys" />
+
+                    <TextView
+                        android:id="@+id/textkeys"
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/keys" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/docs_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/docsBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        app:srcCompat="@drawable/search_documents" />
+
+                    <TextView
+                        android:id="@+id/textdocs"
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/docs" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bag_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/bagBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/search_bag" />
+
+                    <TextView
+                        android:id="@+id/textbag"
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/bag" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/electron_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/electronBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/search_electronics" />
+
+                    <TextView
+                        android:id="@+id/textelectron"
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/electronic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/pet_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/petBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/search_pets" />
+
+                    <TextView
+                        android:id="@+id/textpets"
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/pets" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/other_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:clickable="true"
+                    android:layout_marginBottom="40dp"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/otherBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/search_other" />
+
+                    <TextView
+                        style="@style/SearchLevels"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/other" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

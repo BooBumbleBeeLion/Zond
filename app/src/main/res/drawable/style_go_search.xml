@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:name="android:textStyle">bold</item>
+    <item android:name="android:textColor">@color/gosearch</item>
+    <item android:name="android:typeface">monospace</item>
+    <item android:name="fontFamily">@font/consola</item>
+    <item android:name="android:textSize">22sp</item>
+    <item android:name="android:textAllCaps">false</item>
+
+</shape>

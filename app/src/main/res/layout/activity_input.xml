@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="searchzond.fayz.zond.Activity.InputActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/fon_img"
+        android:scaleType="centerCrop"
+        android:src="@drawable/test_fon1" />
+
+
+    <LinearLayout
+        android:id="@+id/sign_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="135dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/btn_username"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/username"
+            android:fontFamily="@font/roboto_bolditalic"
+            android:hint="@string/user_name"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/texttest"
+            android:textSize="16sp"
+             />
+
+        <EditText
+            android:id="@+id/btn_password"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/userpassword"
+            android:fontFamily="@font/roboto_bolditalic"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/texttest"
+            android:textSize="16sp"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/consola"
+        android:text="@string/text_bottom"
+        android:textAlignment="center"
+        android:textColor="@color/texttest1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_bottom"
+        android:layout_margin="15dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_test"
+            android:text="@string/btnSignIn"
+            android:textColor="@color/texttest"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_test"
+            android:text="@string/btnRegister"
+            android:textColor="@color/texttest"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Zond</string>
+    <string name="wallet" translatable="false">КОШЕЛЁК</string>
+    <string name="keys">КЛЮЧИ</string>
+    <string name="docs" translatable="false">ДОКУМЕНТЫ</string>
+    <string name="bag" translatable="false">СУМКА</string>
+    <string name="electronic" translatable="false">ЭЛЕКТРОНИКА</string>
+    <string name="pets" translatable="false">ЖИВОТНЫЕ</string>
+    <string name="other" translatable="false">ДРУГОЕ</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="search" translatable="false">Поиск</string>
+    <string name="Estimated_loss_site" translatable="false">Приблизительное место потери</string>
+    <string name="Approximate_location" translatable="false">Приблизительное место находки</string>
+    <string name="Date_of_loss" translatable="false">Дата потери</string>
+    <string name="Find_Date" translatable="false">Дата находки</string>
+    <string name="Color" translatable="false">Цвет</string>
+    <string name="model" translatable="false">Модель/Марка/Порода</string>
+    <string name="content" translatable="false">Содержание</string>
+    <string name="gosearch" translatable="false">Найти</string>
+    <string name="breed" translatable="false">Порода</string>
+    <string name="Describe_the_find" translatable="false">Опишите находку</string>
+    <string name="Find_date" translatable="false">Дата находки</string>
+    <string name="Describe_the_subject_of_the_loss" translatable="false">Опишите предмет пропажи</string>
+    <string name="found" translatable="false">НАШЁЛ</string>
+    <string name="add" translatable="false">Добавить</string>
+    <string name="reward" translatable="false">Вознаграждение</string>
+    <string name="Estimated_found_site" translatable="false">Приблизительное место находки</string>
+    <string name="input" translatable="false">Введите сообщение...</string>
+    <string name="app_in_name" translatable="false">Zond</string>
+    <string name="app_name_after" translatable="false">Register App</string>
+    <string name="text_bottom" translatable="false">Войдите в свою учётную запись</string>
+    <string name="btnSignIn" translatable="false">Войти</string>
+    <string name="btnRegister" translatable="false">Зарегистрироваться</string>
+    <string name="password" translatable="false">Пароль</string>
+    <string name="password_confirmation" translatable="false">Подтверждение пароля</string>
+    <string name="input_Name" translatable="false">Введите имя</string>
+    <string name="phone_number" translatable="false">Телефон</string>
+    <string name="user_name" translatable="false">Имя (email)</string>
+    <string name="replay" translatable="false">Отсутсвует соединение с интернетом. Повторите попытку, свайпнув вниз.</string>
+    <string name="lost">ПОТЕРЯЛ</string>
+    <string name="test">test</string>
+    <string name="text">text</string>
+    <string name="add_foto">add_foto</string>
+    <string name="button_back">button_back</string>
+    <string name="fon_img">fon_img</string>
+    <string name="homebtn">homeBtn</string>
+    <string name="message">message</string>
+    <string name="profile">profile</string>
+    <string name="logo">logo</string>
+    <string name="email">Email</string>
+    <string name="close">close</string>
+    <string name="add_img">add_img</string>
+    <string name="Phone">Телефон</string>
+    <string name="personinfa">Личная информация</string>
+    <string name="logout">Выйти</string>
+    <string name="exit">Выход</string>
+    <string name="no_records">Нет записей</string>
+    <string name="search_hint">Подсказка для поиска</string>
+    <string name="name_thing" translatable="false">Название</string>
+</resources>

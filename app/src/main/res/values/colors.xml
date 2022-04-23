@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="main_color">#94a392</color>
+    <color name="black80">#80000000</color>
+    <color name="black">#000000</color>
+    <color name="grey">#fafcfa</color>
+    <color name="gosearch">#06C606</color>
+    <color name="white">#ffffff</color>
+    <color name="colorAppName">#FFC107</color>
+    <color name="text_bottom">#a48290</color>
+    <color name="fon">#F0EEDF</color>
+    <color name="ripple_effect">#FFC107</color>
+    <color name="ripple_effect_register">#0FC802</color>
+    <color name="background_buttons">#7785E6</color>
+    <color name="found">#66ff00</color>
+    <color name="textProfile">#2a6d97</color>
+    <color name="texttest">#ff6c37</color>
+    <color name="texttest1">#38708b</color>
+    <color name="test_fon">#172437</color>
+    <color name="test_rectangle">#1d354f</color>
+    <color name="test_button_color">#ff7336</color>
+    <color name="test_text">#f7f9f8</color>
+
+</resources>

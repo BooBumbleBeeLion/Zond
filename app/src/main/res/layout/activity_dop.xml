@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/rectangle_up"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/button_back"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/button_back"
+            android:src="@drawable/searchwallet_back_button" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Layout"
+        android:layout_marginTop="0dp"
+        android:background="@color/test_fon"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/add_foto"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/add_foto"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/name_thing"
+                android:textColor="@color/texttest"
+                android:textSize="18sp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/dopText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_up2"
+                android:text="@string/text"
+                android:textColorHint="@color/test_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/test_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/Estimated_loss_site"
+                android:textColor="@color/texttest"
+                android:textSize="18sp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/dopText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_up2"
+                android:text="text"
+                android:textColorHint="@color/test_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/test_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Date_of_loss"
+                android:textColor="@color/texttest"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dopText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_up2"
+                android:text="@string/text"
+                android:textColorHint="@color/test_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/test_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Color"
+                android:textColor="@color/texttest"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dopText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_up2"
+                android:text="@string/text"
+                android:textColorHint="@color/test_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/test_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/model"
+                android:textColor="@color/texttest"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dopText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_up2"
+                android:text="@string/text"
+                android:textColorHint="@color/test_text"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/test_text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/content"
+                android:textColor="@color/texttest"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/dopText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/rectangle_up2"
+                android:text="@string/text"
+                android:textColor="@color/test_text"
+                android:textColorHint="@color/test_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+
